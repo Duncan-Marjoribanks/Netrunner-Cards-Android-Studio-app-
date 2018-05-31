@@ -14,6 +14,6 @@ public class CardActivity extends AppCompatActivity {
 
         Intent intent = getIntent();
         Card card = (Card)intent.getSerializableExtra("card");
-        Log.d("CardActivity: ", card.getName());
+        Log.d("Card Activity: ", card.getName());
     }
 }
